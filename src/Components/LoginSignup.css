@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Mulish, sans-serif;
+}
+
+.container {
+    width: 100%;
+    /* height: 650px; */
+    background: url(../Background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.Signup {
+    width: 1100px;
+    height: 780px;
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+    display: flex;
+}
+
+.Part1 {
+    padding: 33px 51px;
+    border-radius: 50px 0px 0px 50px;
+    background: rgb(8, 75, 62);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Logo {
+    background-image: url(../logo.png);
+    width: 171.48px;
+    height: 94.462px;
+    flex-shrink: 0;
+}
+
+.Logotext {
+    color: rgb(249, 226, 186);
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+    max-width: 350px;
+    font-family: GilroySemiBold;
+}
+
+.Part2 {
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+    padding: 55px 52px;
+    display: flex;
+    flex-direction: column;
+    gap: 77px;
+}
+
+.fromdiv1 {
+    color: rgb(35, 35, 35);
+    font-size: 34px;
+    font-family: GilroySemiBold;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: -0.5px;
+    max-width: 421px;
+}
+
+.fromdiv3 {
+    margin-top: 57px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.div3text1 {
+    color: rgb(189, 189, 189);
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.div3text {
+    color: rgb(189, 189, 189);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.5px;
+}
+
+.div3text2 {
+    color: rgb(25, 176, 126);
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+}
+
+.form_container {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    gap: 50px !important;
+}
+
+.forbody {
+    display: flex;
+    flex-direction: column;
+    gap: 47px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.labelname {
+   color: rgb(52, 52, 52);
+    font-family: GilroySemiBold;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: normal;
+    letter-spacing: 0.207px;
+}
+
+.inputlistname {
+    line-height: 24px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-image: initial;
+    border-bottom: 1px solid !important;
+}
+
+.form-button {
+   display: flex;
+    width: 450px;
+    height: 76px;
+    padding: 24px 43px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: rgb(0, 195, 139);
+    cursor: pointer;
+}
+
+button{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: GilroyBold;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: normal;
+    letter-spacing: -0.562px;
+    border: none;
+    background: none;
+}
